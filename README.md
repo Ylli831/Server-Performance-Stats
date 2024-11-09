@@ -10,8 +10,8 @@ Usage
 
 To run the script, make sure it has execute permissions, then run it as follows:
 
-chmod +x server_performance.sh
-./server_performance.sh
+chmod +x server-stats.sh
+./server-stats.sh
 
 Replace server_performance.sh with the actual name of your script file if it’s different.
 
