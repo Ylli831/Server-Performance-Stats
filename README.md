@@ -20,9 +20,7 @@ git clone https://github.com/Ylli831/Server-Performance-Stats.git
 Navigate to the Project Directory
 Move into the directory:
 
-Copy code
 cd Server-Performance-Stats
-Make the Script Executable
 Ensure the script has execute permissions:
 
 chmod +x server-stats.sh
