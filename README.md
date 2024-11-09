@@ -1,3 +1,4 @@
+[Project Page](https://github.com/Ylli831/Server-Performance-Stats)
 # Server Performance Stats
 
 This project contains a shell script, `server-stats.sh`, to analyze basic server performance stats. The script provides insights into CPU usage, memory usage, disk usage, and displays the top processes by CPU and memory usage.
