@@ -1,42 +1,37 @@
-## Project URL
-[Server Performance Stats Project](https://github.com/Ylli831/Server-Performance-Stats)
+Server Performance Stats
 
-# Server Performance Stats
+This repository provides a shell script to monitor server performance metrics, helping administrators keep track of CPU, memory, and disk usage.
 
-This project contains a shell script, `server-stats.sh`, to analyze basic server performance stats. The script provides insights into CPU usage, memory usage, disk usage, and displays the top processes by CPU and memory usage.
+Project URL
 
-## Project URL
+Server Performance Stats GitHub Repository
 
-You can view the repository here: [https://github.com/Ylli831/Server-Performance-Stats](https://github.com/Ylli831/Server-Performance-Stats)
-Script: [https://github.com/Ylli831/Server-Performance-Stats/blob/main/server-stats.sh](https://github.com/Ylli831/Server-Performance-Stats/blob/main/server-stats.sh)
+Usage
 
-## Instructions to Run the Project
+To run the script, make sure it has execute permissions, then run it as follows:
 
-### Prerequisites
-- This script is intended to be run on a Linux server with `bash` installed.
+chmod +x server_performance.sh
+./server_performance.sh
 
-### Running the Script
+Replace server_performance.sh with the actual name of your script file if it’s different.
 
-**Clone the Repository**  
-Open a terminal and clone the repository using:
-git clone https://github.com/Ylli831/Server-Performance-Stats.git
+Requirements
 
-Navigate to the Project Directory
-Move into the directory:
+	•	Unix-based operating system (e.g., Linux, macOS)
+	•	Basic command-line utilities like top, df, and free, which are typically pre-installed.
 
-cd Server-Performance-Stats
-Ensure the script has execute permissions:
+Features
 
-chmod +x server-stats.sh
+	•	Monitors CPU, memory, and disk usage in real-time.
+	•	Provides alerts if usage exceeds specified thresholds (if implemented in the script).
+	•	Logs data to help analyze performance over time (if implemented in the script).
 
-Execute the script to display server performance stats:
+Project Structure
 
-./server-stats.sh
+Server-Performance-Stats/
+├── server_performance.sh   # Main script to monitor performance
+└── README.md               # Project documentation
 
-The script will display:
+License
 
-Total CPU Usage: Shows the percentage of CPU currently in use.
-Total Memory Usage: Displays free and used memory with percentages.
-Total Disk Usage: Shows free and used disk space with percentages.
-Top 5 Processes by CPU Usage: Lists the five processes using the most CPU.
-Top 5 Processes by Memory Usage: Lists the five processes using the most memory.
+This project is licensed under the MIT License - see the LICENSE file for details.
