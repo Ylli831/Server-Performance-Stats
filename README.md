@@ -5,6 +5,7 @@ This project contains a shell script, `server-stats.sh`, to analyze basic server
 ## Project URL
 
 You can view the repository here: [https://github.com/Ylli831/Server-Performance-Stats](https://github.com/Ylli831/Server-Performance-Stats)
+Script: [https://github.com/Ylli831/Server-Performance-Stats/blob/main/server-stats.sh](https://github.com/Ylli831/Server-Performance-Stats/blob/main/server-stats.sh)
 
 ## Instructions to Run the Project
 
